@@ -3,7 +3,7 @@
 
 The project is to develop an application that offers different widgets using API services.
 
-# widgets
+# Widgets
 
 - Chuck ramdom jokes (api.chucknorris.io)
 - Cat ramdom picture with sentence (cataas.com)
