@@ -1,0 +1,106 @@
+{
+    " customer": {
+        " host": "127.0.0.1"
+    },
+
+    "server ": {
+
+    "current_time ": 1531680780,
+        "services ": [
+            {
+                "name": "api.chucknorris.io",
+                " widgets": [
+                    {
+                        "name": "Chuck",
+                        "description": "Display random Chuck fact",
+                        "params": [{}]
+                    }
+                ]
+            }, 
+            {
+                "name": "cataas.com",
+                "widgets": [
+                    {
+                        "name": "Cat",
+                        "description": "Display a random cat picture with chosen string",
+                        "params": [
+                            {
+                                "name": "text",
+                                "type": "string"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type of Cat",
+                        "description": "Display a cat picture depending type choosen",
+                        "params": [
+                            {
+                                "name": "text",
+                                "type": "string"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "excuser.herokuapp.com",
+                "widgets": [
+                    {
+                        "name": "Excuse",
+                        "description": "Display a random excuse sentence depending categories",
+                        "params": [
+                            {   "name": "result",
+                                "type": "array"  
+                            }
+                        ]
+                    }  
+                ] 
+            },
+            {
+                "name": "countryflagsapi.com",
+                "widgets": [
+                    {
+                        "name": "Country flag",
+                        "description": "Display a contry flag picture of yout choice",
+                        "params": [
+                            {   "name": "text",
+                                "type": "string"  
+                            }
+                        ]
+                    }  
+                ]
+            },
+            {
+                "name": "avatars.dicebear.com",
+                "widgets": [
+                    {
+                        "name": "logo maker",
+                        "description": "make a logo of your firstname and lastname",
+                        "params": [
+                            {   "name": "text",
+                                "type": "string"  
+                            }
+                        ]
+                    }  
+                ]
+            },
+            {
+                "name": "api.exchangerate.host",
+                "widgets": [
+                    {
+                        "name": "exchange rate",
+                        "description": "display exchange rate between two currencies",
+                        "params": [
+                            {   "name": "from",
+                                "type": "array"  
+                            },
+                            {   "name": "to",
+                                "type": "array"  
+                            }
+                        ]
+                    }  
+                ]
+            }
+        ]
+    }
+}
